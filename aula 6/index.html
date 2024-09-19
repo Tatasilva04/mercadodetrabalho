@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport"   content = "width=device-width,initial-scale=1.0">
+    <title>exemplo de eventos em javaScript</title>
+    <style>
+         #meubotão{
+            padding:10px 20px;
+            font-size:16px;
+            cursor:pointer;
+
+         }
+         </style>
+         </head>
+         <body>
+            <h1 id="titulo">clique no botão para mudar este texto!</h1>
+            <button id = "meubotao" >clique aqui</button>
+        <script>
+            //seleciona o botão pelo ID
+           const botao = document.getElementById('meubotao');
+            
+           //Adiciona um ouvinte de evento para o clique
+           botao.addEventListener('click',function() {
+           //Altera o texto do titulo quando o botão é clicado
+
+            document.getElementById('titulo').innerText = 'você clicou np botão'
+        })
+        </script>
+        </body>
+        </html>

@@ -1,0 +1,22 @@
+*{
+    margin:0 auto;
+    padding:0;
+    
+}
+.menu-horizontal{
+      background-color: rgb(255, 0, 64);
+      
+}
+.menu-horizontal ul li  {
+    display: inline; /*em linha*/ 
+    dashed;
+}
+.menu-horizontal ul li a{
+      color:blue; /* texto*/
+      padding:20px;
+      display:inline-block;
+      text-decoration:nome; /*retira padrão do hiperlimk*/
+}
+
+
+
